@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/banque")
+@CrossOrigin("*")
 public class CompteController {
 
     @Autowired
